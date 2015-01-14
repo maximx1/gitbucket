@@ -1,0 +1,23 @@
+#!/bin/bash
+
+umessage="Usage ./jecommande run <port number>,\n ./jecommande kill, or \n./jecommande build"
+pidfile="app.pid"
+
+if [ "$1" = "run" ]
+then
+	nohup java -jar target/scala-2.11/gitbucket.war --port=$2 --gitbucket.home=$HOME/.gitbucket/data -Xms32M -Xmx64M >>nohup.out 2>&1 &
+	echo $! > $pidfile
+elif [ "$1" = "build" ]
+then
+	ant
+elif [ "$1" = "kill" ]
+then
+	if [ -f "$pidfile" ]
+	then
+		echo "stopping server"
+		kill `cat $pidfile`
+		rm $pidfile
+	fi
+else
+	echo "$umessage"
+fi
