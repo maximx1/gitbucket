@@ -1,0 +1,14 @@
+[info] AvatarImageProviderSpec
+[info] 
+[info] getAvatarImageHtml should
+[info] + show Gravatar image for no image account if gravatar integration is enabled
+[info] + show uploaded image even if gravatar integration is enabled
+[info] + show local image for no image account if gravatar integration is disabled
+[info] + show Gravatar image for specified mail address if gravatar integration is enabled
+[info] + show unknown image for unknown user if gravatar integration is enabled
+[info] + show unknown image for specified mail address if gravatar integration is disabled
+[info] + add tooltip if it's enabled
+[info] 
+[info] Total for specification AvatarImageProviderSpec
+[info] Finished in 4 ms
+[info] 7 examples, 0 failure, 0 error

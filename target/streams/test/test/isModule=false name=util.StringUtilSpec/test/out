@@ -1,0 +1,28 @@
+[info] StringUtilSpec
+[info] 
+[info] urlDecode should
+[info] + decode encoded string to original string
+[info] 
+[info] splitWords should
+[info] + split string by whitespaces
+[info] 
+[info] escapeHtml should
+[info] + escape &, <, > and "
+[info] 
+[info] md5 should
+[info] + generate MD5 hash
+[info] 
+[info] sha1 should
+[info] + generate SHA1 hash
+[info] 
+[info] extractIssueId should
+[info] + extract '#xxx' and return extracted id
+[info] + returns Nil from message which does not contain #xxx
+[info] 
+[info] extractCloseId should
+[info] + extract 'close #xxx' and return extracted id
+[info] + returns Nil from message which does not contain close command
+[info] 
+[info] Total for specification StringUtilSpec
+[info] Finished in 186 ms
+[info] 9 examples, 0 failure, 0 error

@@ -1,0 +1,11 @@
+[info] GitCommandFactorySpec
+[info] 
+[info] createCommand should
+[info] + returns GitReceivePack when command is git-receive-pack
+[info] + returns GitUploadPack when command is git-upload-pack
+[info] + returns UnknownCommand when command is not git-(upload|receive)-pack
+[info] + returns UnknownCommand when git command has no valid arguments
+[info] 
+[info] Total for specification GitCommandFactorySpec
+[info] Finished in 7 ms
+[info] 4 examples, 0 failure, 0 error

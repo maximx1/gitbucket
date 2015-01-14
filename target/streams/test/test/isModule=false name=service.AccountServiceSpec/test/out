@@ -1,0 +1,13 @@
+[info] AccountServiceSpec
+[info] 
+[info] AccountService should
+[info] + getAllUsers
+[info] + getAccountByUserName
+[info] + getAccountByMailAddress
+[info] + updateLastLoginDate
+[info] + updateAccount
+[info] + group
+[info] 
+[info] Total for specification AccountServiceSpec
+[info] Finished in 154 ms
+[info] 6 examples, 0 failure, 0 error

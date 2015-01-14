@@ -1,0 +1,18 @@
+[debug] Running TaskDef(ssh.GitCommandFactorySpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Running TaskDef(util.StringUtilSpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Running TaskDef(util.ValidationsSpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Running TaskDef(service.AccountServiceSpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Running TaskDef(view.AvatarImageProviderSpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Running TaskDef(view.PaginationSpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Running TaskDef(view.GitBucketHtmlSerializerSpec, specs2 Specification fingerprint, false, [SuiteSelector])
+[debug] Summary for ScalaCheck not available.
+[debug] Summary for specs2 not available.
+[info] Passed: Total 44, Failed 0, Errors 0, Passed 44
+[debug] Passed tests:
+[debug] 	view.PaginationSpec
+[debug] 	view.GitBucketHtmlSerializerSpec
+[debug] 	view.AvatarImageProviderSpec
+[debug] 	util.StringUtilSpec
+[debug] 	util.ValidationsSpec
+[debug] 	service.AccountServiceSpec
+[debug] 	ssh.GitCommandFactorySpec

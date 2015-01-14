@@ -1,0 +1,9 @@
+#Successful Tests
+#Wed Jan 14 00:05:54 CST 2015
+view.PaginationSpec=1421215551410
+view.GitBucketHtmlSerializerSpec=1421215551172
+view.AvatarImageProviderSpec=1421215551344
+util.StringUtilSpec=1421215550678
+util.ValidationsSpec=1421215550671
+service.AccountServiceSpec=1421215554888
+ssh.GitCommandFactorySpec=1421215550672

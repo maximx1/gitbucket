@@ -1,0 +1,14 @@
+[info] ValidationsSpec
+[info] 
+[info] identifier should
+[info] + validate id string 
+[info] 
+[info] color should
+[info] + validate color string 
+[info] 
+[info] date should
+[info] + convert date string 
+[info] 
+[info] Total for specification ValidationsSpec
+[info] Finished in 152 ms
+[info] 3 examples, 0 failure, 0 error

@@ -1,0 +1,21 @@
+[info] GitBucketHtmlSerializerSpec
+[info] 
+[info] generateAnchorName should
+[info] + convert whitespace characters to hyphens
+[info] + normalize characters with diacritics
+[info] + omit special characters
+[info] 
+[info] escapeTaskList should
+[info] + convert '- [ ] ' to '* task: :'
+[info] + convert '  - [ ] ' to '  * task: :'
+[info] + convert only first '- [ ] '
+[info] + convert '- [x] ' to '* task:x:'
+[info] + convert multi lines
+[info] + no convert if inserted before '- [ ] '
+[info] + no convert '- [] '
+[info] + no convert '- [ ]a'
+[info] + no convert '-[ ] '
+[info] 
+[info] Total for specification GitBucketHtmlSerializerSpec
+[info] Finished in 3 ms
+[info] 12 examples, 0 failure, 0 error

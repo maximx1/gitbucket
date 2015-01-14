@@ -1,0 +1,14 @@
+[info] PaginationSpec
+[info] 
+[info] max should
+[info] + return max page number
+[info] 
+[info] omitLeft and omitRight should
+[info] + return true if pagination links at their side will be omitted
+[info] 
+[info] visibleFor should
+[info] + return true for visible pagination links
+[info] 
+[info] Total for specification PaginationSpec
+[info] Finished in 7 ms
+[info] 3 examples, 0 failure, 0 error
